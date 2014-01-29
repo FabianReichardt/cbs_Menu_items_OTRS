@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<otrs_config version="1.0" init="Changes">
+<ConfigItem Name="Frontend::Module###cbs_Menu_Items" Required="0" Valid="1" ConfigLevel="100">
+    <Description>Specific menu items for cbs agents.</Description>
+    <Group>Framework</Group>
+    <SubGroup>Frontend::Agent::ModuleRegistration</SubGroup>
+    <Setting>
+    <FrontendModuleReg>
+        <Description>cbs Menu</Description>
+        <Title></Title>
+        <NavBarName>cbs</NavBarName>
+        <NavBar>
+            <Description></Description>
+            <Name>cbs</Name>
+            <Image></Image>
+            <Link></Link>
+            <NavBar>cbs</NavBar>
+            <Type>Menu</Type>
+            <Block>ItemArea</Block>
+            <AccessKey></AccessKey>
+            <Prio>60</Prio>
+        </NavBar>
+        <NavBar>
+			<Group>Weleda</Group>
+            <Description></Description>
+            <Name>Weleda AG</Name>
+            <Image></Image>
+            <Link>Action=AgentCustomerInformationCenter;CustomerID=Weleda</Link>
+            <NavBar>cbs</NavBar>
+            <Type></Type>
+            <Block>ItemArea</Block>
+            <AccessKey></AccessKey>
+            <Prio>70</Prio>
+        </NavBar>
+        <NavBar>
+			<Group>Weleda</Group>
+            <Description></Description>
+            <Name></Name>
+            <Image></Image>
+            <Link></Link>
+            <NavBar>cbs</NavBar>
+            <Type></Type>
+            <Block>ItemArea</Block>
+            <AccessKey></AccessKey>
+            <Prio>75</Prio>
+        </NavBar>
+        <NavBar>
+			<Group>Weleda</Group>
+            <Description></Description>
+            <Name>::Wartung:: Bänderprüfung Weleda (Telefon Ticket)</Name>
+            <Image></Image>
+            <Link>Action=AgentTicketPhone;Subaction=StoreNew;TypeID=13;ExpandCustomerName=2;CustomerUser=weleda.audit;Subject=%3A%3AWartung%3A%3A%20B%C3%A4nderpr%C3%BCfung%20Weleda;Dest=17%7C%7CAudit%3A%3AWeleda;NextStateID=2</Link>
+            <NavBar>cbs</NavBar>
+            <Type></Type>
+            <Block>ItemArea</Block>
+            <AccessKey></AccessKey>
+            <Prio>80</Prio>
+        </NavBar>
+        <NavBar>
+			<Group>Weleda</Group>
+            <Description></Description>
+            <Name>Weleda Wochenaudit (Telefon Ticket)</Name>
+            <Image></Image>
+            <Link>Action=AgentTicketPhone;Subaction=StoreNew;TypeID=13;ExpandCustomerName=2;CustomerUser=weleda.audit;Subject=Wochenaudit%3A%20;Dest=17%7C%7CAudit%3A%3AWeleda;NextStateID=2</Link>
+            <NavBar>cbs</NavBar>
+            <Type></Type>
+            <Block>ItemArea</Block>
+            <AccessKey></AccessKey>
+            <Prio>90</Prio>
+        </NavBar>
+        <NavBar>
+			<Group>Weleda</Group>
+            <Description></Description>
+            <Name>Audit Meldungen an Weleda (E-Mail Ticket)</Name>
+            <Image></Image>
+            <Link>Action=AgentTicketEmail;Subaction=StoreNew;ExpandCustomerName=2;CustomerUser=;TypeID=13;Subject=Wochenaudit%3A%20;Dest=17%7C%7CAudit%3A%3AWeleda;NextStateID=2</Link>
+            <NavBar>cbs</NavBar>
+            <Type></Type>
+            <Block>ItemArea</Block>
+            <AccessKey></AccessKey>
+            <Prio>100</Prio>
+        </NavBar>
+    </FrontendModuleReg>
+</Setting>
+</ConfigItem>
+</otrs_config>

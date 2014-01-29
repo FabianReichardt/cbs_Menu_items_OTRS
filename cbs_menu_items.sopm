@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<otrs_package version="1.0">
+    <Name>cbs_menu_items</Name>
+    <Version>0.1.1</Version>
+    <Framework>3.x.x</Framework>
+    <Vendor>Fabian Reichardt, cbs Consulting</Vendor>
+    <URL>http://www.cbs-consulting.de</URL>
+    <License>GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007</License>
+    <ChangeLog Version="0.1.1" Date="2014-01-29 15:26:22">Initial version</ChangeLog>
+    <Description Lang="en">A module to provide cbs specific menu items.</Description>
+    <Description Lang="de">Ein Modul, welches cbs spezifische Menü Punkte bereit stellt.</Description>
+    <BuildDate>2011-03-21 02:49:17</BuildDate>
+    <BuildHost>support.cbs-consulting.de</BuildHost>
+    <Filelist>
+        <File Permission="644" Location="Kernel/Config/Files/cbs.navbar.xml"></File>
+        <File Permission="644" Location="Kernel/Config/Files/cbs_admin.navbar.xml"></File>
+		</Filelist>
+    <IntroInstall Type="pre" Title="Install Information" Lang="en"><![CDATA[
+        <br/>
+        <strong>WELCOME</strong>
+        <br/>
+        <br/>
+        You are about to install the cbs menu package.<br/>
+        <br/>
+        <br/>
+        If you have any questions, please contact me under Fabian.Reichardt@cbs-consulting.de.<br/>
+        <br/>
+    ]]></IntroInstall>
+    <IntroInstall Type="pre" Title="Installation Information" Lang="de"><![CDATA[
+        <br/>
+        <strong>WILLKOMMEN</strong>
+        <br/>
+        <br/>
+        Sie sind im Begriff das cbs Menü Paket zu installieren.<br/>
+        <br/>
+        <br/>
+        Für Rückfragen stehe ich unter Fabian.Reichardt@cbs-consulting.de zur Verfügung.<br/>
+        <br/>
+    ]]></IntroInstall>
+</otrs_package>
