@@ -39,7 +39,7 @@
         Für Rückfragen stehe ich unter Fabian.Reichardt@cbs-consulting.de zur Verfügung.<br/>
         <br/>
     ]]></IntroInstall>
-    <IntroInstall Type="pre" Title="Install Information" Lang="en"><![CDATA[
+    <IntroInstall Type="post" Title="Install Information" Lang="en"><![CDATA[
         <br/>
         <strong>Post steps</strong>
         <br/>
@@ -50,7 +50,7 @@
         <br/>
         <br/>
     ]]></IntroInstall>
-    <IntroInstall Type="pre" Title="Installation Information" Lang="de"><![CDATA[
+    <IntroInstall Type="post" Title="Installation Information" Lang="de"><![CDATA[
         <br/>
         <strong>NACHARBEITEN</strong>
         <br/>
