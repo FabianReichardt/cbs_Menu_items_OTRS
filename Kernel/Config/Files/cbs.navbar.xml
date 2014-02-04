@@ -61,7 +61,7 @@
             <Description></Description>
             <Name>Weleda Wochenaudit (Telefon Ticket)</Name>
             <Image></Image>
-            <Link>Action=AgentTicketPhone;Subaction=StoreNew;TypeID=13;ExpandCustomerName=2;CustomerUser=weleda.audit;Subject=Wochenaudit%3A%20;Dest=17%7C%7CAudit%3A%3AWeleda;NextStateID=2</Link>
+            <Link>Action=AgentTicketPhone;Subaction=StoreNew;TypeID=13;ExpandCustomerName=2;CustomerUser=weleda.audit;Subject=Wochenaudit%20dd.mm.yyyy%20f%C3%BCr%20KW%23%23;Dest=17%7C%7CAudit%3A%3AWeleda;NextStateID=2</Link>
             <NavBar>cbs</NavBar>
             <Type></Type>
             <Block>ItemArea</Block>
