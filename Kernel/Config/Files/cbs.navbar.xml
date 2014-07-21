@@ -80,6 +80,18 @@
             <AccessKey></AccessKey>
             <Prio>100</Prio>
         </NavBar>
+        <NavBar>
+			<Group>Weleda</Group>
+            <Description></Description>
+            <Name>Audit (Betrieb)</Name>
+            <Image></Image>
+            <Link>Action=AgentTicketPhone;Subaction=StoreNew;TypeID=10;ExpandCustomerName=2;CustomerUser=weleda.audit</Link>
+            <NavBar>cbs</NavBar>
+            <Type></Type>
+            <Block>ItemArea</Block>
+            <AccessKey></AccessKey>
+            <Prio>110</Prio>
+        </NavBar>
     </FrontendModuleReg>
 </Setting>
 </ConfigItem>
